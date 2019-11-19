@@ -1,0 +1,76 @@
+extends layout  
+
+block content
+    title 
+    form(action="/uploadfile" enctype="multipart/form-data" method="POST")
+        input(type="file" name="myFile")
+        input(type="submit" value="Upload your file")
+    form(action="/uploadmultiple" enctype="multipart/form-data" method="POST")
+        input(type="file" name="myFiles" multiple)
+        input(type="submit" value="Upload files")
+    form(action="/uploadphoto" enctype="multipart/form-data" method="POST")
+        input(type="file" name="myImage" accept="image/*")
+        input(type="submit" value="Upload Photo")
+        div.row.justify-content-center
+        div.col-md-6
+            header.card-header
+                a.float-right.btn.btn-outline-primary Log in
+                h4.card-title REGISTER
+                div.card-body
+                block content
+                form(method="POST" action='/registration')
+                    div.form-row
+                        div.col-sm-6.form-group
+                            label First Name:
+                            input.form-control(name="first_name",type="text", placeholder="Enter your first name")
+                            
+                        div.col-sm-6.form-group
+                            label Last Name:
+                            input.form-control(name="last_name",type="text",placeholder="Enter your last name")
+                            div.form-row
+                        div.col-sm-12.form-group
+                            div.form-group    
+                                label Email address:
+                                input.form-control(name="email",type="email",placeholder="Enter your Email")
+                                small We'll never share your email with anyone else
+                                div.form-group    
+                        label Password:
+                        input.form-control(name="password",type="password",placeholder="Password")
+                        small We'll never share your email with anyone else
+                        
+                        div.col-sm-6.form-group
+                        div.form-row
+                            div.form-group
+                                label.form-check.form-check-inline
+                                    input.form-check-input(type="radio" name="gender" value="gender")
+                                    span.form-check-label Male  
+                                     div.col-sm-6.form-group
+                                label.form-check.form-check-inline
+                                    input.form-check-input(type="radio" name="gender" value="gender")
+                                    span.form-check-label Female     
+                            div.form-group    
+                            label Country:
+                                select.form-control(name="country" type="text")
+                                    option(value="country") Uganda 
+                                    div.form-group    
+                            label City:
+                                select.form-control(name="city" type="text")
+                                    option(value="city") Kampala
+                                    option(value="city") Lira
+                                    option(value="city") Gulu 
+                                    div.form-group                        
+                        div.col-sm-6.form-group                      
+                                        label Delete:
+                                        input.form-control(name="delete",type="delete",placeholder="delete")
+                        div.col-sm-6.form-group                      
+                                        label Search:
+                                        input.form-control(name="search",type="search",placeholder="search")
+                                        div.form-group
+                        block content
+                        input.btn.btn-success.btn-block(type="submit", value="Register")
+
+                                        
+
+
+ 
+    

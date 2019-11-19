@@ -1,0 +1,99 @@
+
+.nav-link {
+    color: dodgerblue;
+    background-color: none;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: underline;
+    
+  }
+ 
+  #header {
+    color:dodgerblue;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+
+}
+#lgn{
+    border-color:dodgerblue;
+    color: dodgerblue;
+    font-weight: bold;
+}
+#build {
+    color: blue;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.jumbotron{
+    width: 500px;
+    margin-left: 11cm;
+background: dodgerblue;  /* Chrome 10-25, Safari 5.1-6 */
+    /*margin-bottom: 15cm;*/
+}
+#h3{
+    color: white;
+    text-align: center;
+}
+#h4{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+#log{
+   color:blue;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold; 
+}
+#button{
+background-color: blue;
+height: 40px;
+width: 100px;
+text-align: center;
+border-radius: 10px;
+color: white;
+
+font-style: normal;
+font-weight: bolder;
+}
+#log2{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.row{
+    width: 100%;
+    text-align: justify
+}
+.container{
+    width: 900px;
+    background-color: azure;
+}
+
+
+
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    color: blue;
+    text-align: center;
+}
+.container-fluid{
+     background-color: lavender;
+
+    /*background-image: url("https://businessfocus.co.ug/wp-content/uploads/2017/09/Money-Lenders-Thriving-in-Uganda.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue; */
+
+  
+}

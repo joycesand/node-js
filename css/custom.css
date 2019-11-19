@@ -1,0 +1,62 @@
+#header {
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+}
+
+.example{
+    background: #2c3e50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#jubdron {
+    color: white;
+    padding:5.5rem;
+    font-size: 15px;
+    
+
+}
+
+.nav-link {
+    color: white;
+    background-color:none;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: underline;
+    
+  }
+
+  .btn-danger1 {
+    color: dodgerblue;
+    background-color:white;
+    border-color:white;
+    width: 100%;
+    border-radius: 5.5rem;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  .btn-danger2 {
+    color:dodgerblue;
+    background-color: white;
+    border-color: white;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  #footer {
+      text-align: center;
+      color: white;
+  }
+
+  p {
+      font-size: 20px;
+      text-align: center;
+  }
+
+  p1 {
+      font-size: 20px;
+      text-align: center;
+  }
