@@ -9,13 +9,12 @@ block content
                     tr
                         th First Name
                         th First Name
-                        th Password
+                        th User Name
                         th Email address
                         th Gender
                         th Country
                         th City
-                        th Delete
-                        th Search
+                      
                         
 
                 tbody
@@ -23,12 +22,12 @@ block content
                         tr
                             td #{user.first_name}
                             td #{user.last_name}
-                            td #{user.password}
                             td #{user.email}
                             td #{user.gender}
                             td #{user.country}
                             td #{user.city}
-                            td #{user.delete}
-                            td #{user.search}
                             
+                                form(method="post" action='/register/delete')
+                                    input(type="hidden", placeholder="", name="id", value=user._id)
+                                    button.btn.btn-dark.btn-block(type="submit") Delete
                             
